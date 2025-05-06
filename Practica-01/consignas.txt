@@ -3,7 +3,7 @@ Una temperatura en grados Fahrenheit (F) se convierte a grados Celsius o Centíg
 fórmula: C = 5/9 * (F – 32). Elaborar un programa que imprima una tabla desde 1 hasta 65 (con
 intervalos de 1) grados Fahrenheit con sus equivalentes en grados Celsius.
 
-
+-----------------------------------------------------------------------------------------------------
 131.
 Una distribuidora de libros vende a librerías y a particulares. Aplica bonificaciones por cantidad según
 el siguiente criterio:
@@ -14,7 +14,7 @@ El tipo de cliente está codificado: ‘L’ para librerías, ‘P’ para parti
 una compra de libros, el tipo de cliente y la cantidad total pedida por el mismo, determinar el importe
 bruto bonificado.
 
-/* Leer los datos: importe bruto, tipo de cliente, cantidad.
+Leer los datos: importe bruto, tipo de cliente, cantidad.
 
 Evaluar el tipo de cliente y cuántas unidades compró.
 
@@ -25,7 +25,7 @@ Aplicar ese porcentaje al importe bruto.
 Mostrar el importe final bonificado. */
 
 
-
+-----------------------------------------------------------------------------------------------------
 
 155.
 Debe ingresarse el número de legajo de un alumno y 5 notas de evaluaciones para Programación I (de
@@ -33,6 +33,31 @@ Debe ingresarse el número de legajo de un alumno y 5 notas de evaluaciones para
 conocer la condición final de regularización de cada alumno. Mostrar el legajo del alumno y la
 condición final del mismo: ‘Regular’ (cuando aprobaron 4 o más parciales), ‘A recuperatorio’ (cuando
 aprobaron sólo 3 parciales), ‘A recursar’ (cuando aprobaron menos de 3 parciales).
+
+Pedir (o capturar) el número de legajo.
+
+Pedir (o capturar) 5 notas.
+
+Evaluar cuántas notas son mayores o iguales a 6.
+
+Según la cantidad de aprobados, determinar y mostrar la condición final junto con el legajo.
+
+🔹 for (let notaInput of notas) { ... }
+Este es un bucle for...of, que recorre uno por uno los elementos del array notas.
+
+notas es un array que contiene 5 elementos input (uno por cada nota ingresada).
+
+notaInput representa cada uno de esos inputs en cada vuelta del bucle.
+
+🔹 if (notaInput.value >= 6) { aprobadas++ }
+Aquí se toma el value del input (es decir, la nota que se escribió).
+
+Se compara directamente con 6.
+
+Si esa nota es mayor o igual a 6, significa que el parcial está aprobado, entonces se suma 1 a aprobadas.
+
+
+-----------------------------------------------------------------------------------------------------
 
 
 305.

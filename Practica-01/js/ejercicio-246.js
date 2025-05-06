@@ -1,4 +1,4 @@
-console.log('Practica Javascript 01 - e246')
+console.log('Practica Javascript 01 - E246')
 
 
 const titulo = document.createElement('h1')

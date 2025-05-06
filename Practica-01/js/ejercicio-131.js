@@ -1,6 +1,6 @@
-console.log('Practica Javascript 01 - e131')
+console.log('Practica Javascript 01 - E131')
 
-/*------- INYECTAR EN EL MAIN LOS ELEMENNTOS HTML-------*/
+/*------- CABECERA HTML-------*/
 const titulo = document.createElement('h1')
 titulo.textContent ='Calcular importe con o sin bonificación'
 
