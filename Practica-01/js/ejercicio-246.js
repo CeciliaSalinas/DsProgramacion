@@ -1,4 +1,4 @@
-console.log('Practica Javascript 01')
+console.log('Practica Javascript 01 - e246')
 
 
 const titulo = document.createElement('h1')
@@ -14,7 +14,7 @@ const tituloCel = document.createElement('th')
 tituloCel.textContent = 'Celsius'
 
 
-
+/*---- INYECTAR DATOS EN LAS COLUMNAS--- */
 encabezado.appendChild(tituloFar)
 encabezado.appendChild(tituloCel)
 tabla.appendChild(encabezado)
@@ -37,7 +37,7 @@ for( let far = 1; far <= 65; far ++ ){
     tabla.appendChild(fila)
 }
 
-/* INYECTAR EN EL MAIN */
+/*---- AGREGAR ALL DOM----- */
 
 let main = document.querySelector('main') 
 main.appendChild(titulo) 

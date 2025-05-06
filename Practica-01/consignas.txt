@@ -14,6 +14,18 @@ El tipo de cliente está codificado: ‘L’ para librerías, ‘P’ para parti
 una compra de libros, el tipo de cliente y la cantidad total pedida por el mismo, determinar el importe
 bruto bonificado.
 
+/* Leer los datos: importe bruto, tipo de cliente, cantidad.
+
+Evaluar el tipo de cliente y cuántas unidades compró.
+
+Calcular el porcentaje de bonificación.
+
+Aplicar ese porcentaje al importe bruto.
+
+Mostrar el importe final bonificado. */
+
+
+
 
 155.
 Debe ingresarse el número de legajo de un alumno y 5 notas de evaluaciones para Programación I (de
