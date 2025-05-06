@@ -1,0 +1,29 @@
+246.
+Una temperatura en grados Fahrenheit (F) se convierte a grados Celsius o Centígrados (C), con la
+fórmula: C = 5/9 * (F – 32). Elaborar un programa que imprima una tabla desde 1 hasta 65 (con
+intervalos de 1) grados Fahrenheit con sus equivalentes en grados Celsius.
+
+
+131.
+Una distribuidora de libros vende a librerías y a particulares. Aplica bonificaciones por cantidad según
+el siguiente criterio:
+a) Librerías: hasta 24 unidades, el 20%; más de 24 unidades, el 25%.
+b) Particulares: menos de 6 unidades, nada; desde 6 hasta 18 unidades, el 5%; y más de 18 unidades,
+el 10%.
+El tipo de cliente está codificado: ‘L’ para librerías, ‘P’ para particular. Dado el importe bruto total de
+una compra de libros, el tipo de cliente y la cantidad total pedida por el mismo, determinar el importe
+bruto bonificado.
+
+
+155.
+Debe ingresarse el número de legajo de un alumno y 5 notas de evaluaciones para Programación I (de
+0 a 10). Se sabe que quienes han rendido con nota mayor o igual a 6 aprueban el parcial. Se desea
+conocer la condición final de regularización de cada alumno. Mostrar el legajo del alumno y la
+condición final del mismo: ‘Regular’ (cuando aprobaron 4 o más parciales), ‘A recuperatorio’ (cuando
+aprobaron sólo 3 parciales), ‘A recursar’ (cuando aprobaron menos de 3 parciales).
+
+
+305.
+Leer 6 valores numéricos enteros. Los primeros 3 representan el día, el mes y el año de una fecha, los
+3 restantes representan los mismos atributos de otra. Se pide determinar e informar cuál de las dos
+fechas es posterior.
