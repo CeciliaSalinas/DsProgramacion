@@ -1,0 +1,132 @@
+ 
+267.  
+Realizar una aplicación que le solicite al usuario que ingrese su fecha de nacimiento
+ y luego que  calcule la edad que tiene en este momento, en años y meses.  
+
+Estructura principal: Secuencial
+Se sigue una serie de pasos en orden, sin decisiones (condiciones) que alteren el flujo:
+
+Solicitar la fecha de nacimiento al usuario.
+
+Obtener la fecha actual.
+
+Calcular la diferencia en años y meses.
+
+Mostrar el resultado.
+
+❕Es una estructura en la que las instrucciones se ejecutan una tras otra, en el mismo orden en que están escritas, sin tomar decisiones ni repetir pasos. ej: una receta
+
+
+🔷 Inicio
+Bloque de inicio: Comienza el proceso.
+
+🔷 Entrada de datos
+Bloque de entrada:
+
+Solicitar al usuario su fecha de nacimiento (día, mes y año).
+
+(Opcional) Obtener la fecha actual (puede provenir del sistema) compuesta por día, mes y año.
+
+🔷 Cálculo de la edad
+Bloque de proceso:
+
+Calcular años:
+
+AñoEdad = AñoActual - AñoNacimiento
+
+Calcular meses:
+
+MesEdad = MesActual - MesNacimiento
+
+🔷 Ajuste en caso de meses negativos
+Bloque decisional (Estructura selectiva):
+
+Preguntar: ¿MesEdad es menor que 0?
+
+Si (Verdadero):
+
+AñoEdad = AñoEdad - 1
+
+MesEdad = MesEdad + 12
+
+Si no (Falso):
+
+Continuar sin modificaciones.
+
+🔷 Salida
+Bloque de salida:
+
+Mostrar o imprimir el mensaje: "Usted tiene X años y Y meses", donde X es AñoEdad y Y es MesEdad.
+
+🔷 Fin
+Bloque de fin: El algoritmo finaliza.
+
+
+✅ Validación sencilla (nivel básico)
+Podés simplemente verificar que:
+
+Los datos no estén vacíos.
+
+Sean números.
+
+Estén dentro de un rango razonable.
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+133.  
+Se ingresan 6 números positivos diferentes, mostrar un cartel que diga: “El mayor número ingresado  fue el xxx”.  
+
+Iniciar
+
+Leer 6 números distintos y positivos
+
+Guardar el primer número como "mayor"
+
+Comparar el segundo número con "mayor":
+
+Si es mayor, reemplazarlo
+
+Repetir lo mismo con el tercero, cuarto, quinto y sexto número
+
+Mostrar un mensaje que diga cuál fue el mayor número
+
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+326.  
+Las unidades de capacidad del SIMELA (Sistema Métrico Legal Argentino) expresadas en litros y su  equivalencia de volumen, son las siguientes:  
+kl hl dal l dl cl ml  
+1000 l 
+100 l 
+10 l 
+1 
+0,1 l 
+0,01 l 
+0,001 l
+
+
+De acuerdo a esta tabla, permitir que un usuario ingrese un valor en alguna de las unidades, y luego  que calcule sus equivalentes en las otras medidas.  
+
+
+Inicio
+
+Mostrar lista de unidades válidas (kl, hl, dal, l, dl, cl, ml)
+
+Pedir al usuario que ingrese un valor numérico
+
+Pedir al usuario que ingrese la unidad del valor (por ejemplo, "dl")
+
+Convertir ese valor a litros
+
+Calcular el equivalente en todas las demás unidades a partir de los litros
+
+Mostrar los resultados
+
+Fin
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+334.  
+
+Hacer un programa que le solicite al usuario que escriba un número, y permitirle elegir si quiere  calcular la sumatoria o el factorial. 
+Luego que procese esos resultados.  Recordatorio: La sumatoria es la suma de todos los números menores o iguales que el número dado. 
+ (Ej: sumatoria de 5 = 1+2+3+4+5=15). El factorial es el producto de esos mismos números (Ej:  Factorial de 4 = 4! = 1.2.3.4 = 24) 

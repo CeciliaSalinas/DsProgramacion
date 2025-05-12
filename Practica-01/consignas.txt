@@ -14,6 +14,7 @@ El tipo de cliente está codificado: ‘L’ para librerías, ‘P’ para parti
 una compra de libros, el tipo de cliente y la cantidad total pedida por el mismo, determinar el importe
 bruto bonificado.
 
+
 Leer los datos: importe bruto, tipo de cliente, cantidad.
 
 Evaluar el tipo de cliente y cuántas unidades compró.
@@ -41,16 +42,6 @@ Pedir (o capturar) 5 notas.
 Evaluar cuántas notas son mayores o iguales a 6.
 
 Según la cantidad de aprobados, determinar y mostrar la condición final junto con el legajo.
-
-🔹 for (let notaInput of notas) { ... }
-Este es un bucle for...of, que recorre uno por uno los elementos del array notas.
-
-notas es un array que contiene 5 elementos input (uno por cada nota ingresada).
-
-notaInput representa cada uno de esos inputs en cada vuelta del bucle.
-
-🔹 if (notaInput.value >= 6) { aprobadas++ }
-Aquí se toma el value del input (es decir, la nota que se escribió).
 
 Se compara directamente con 6.
 
