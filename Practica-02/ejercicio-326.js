@@ -1,4 +1,4 @@
-console.log('Practica Javascript 02 - E334')
+console.log('Practica Javascript 02 - E326')
 
 /* -----pido al usuario los datos de ingreso--------- */
 let ingresaValor = prompt('Ingresá un número :')
