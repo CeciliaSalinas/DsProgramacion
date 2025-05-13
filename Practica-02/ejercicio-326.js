@@ -1,8 +1,10 @@
 console.log('Practica Javascript 02 - E334')
 
+/* -----pido al usuario los datos de ingreso--------- */
+let ingresaValor = prompt('Ingresá un número :')
+let valorIngresado = parseFloat(ingresaValor)
 
-let ingresaValor = prompt('Ingresá un valor en números:')
-let eligeUnidad = prompt('Escribir la unidad de medida a convertir (kl, hl, dal, l, dl, cl, ml):')
+let eligeUnidad = prompt('Escribir la unidad de medida a convertir (kl, hl, dal, l, dl, cl, ml):') 
 
 
 let valorUnidadLitro = 0
@@ -29,9 +31,11 @@ switch (eligeUnidad) {
   case 'ml':
     valorUnidadLitro = ingresaValor * 0.001
     break
+}
 
-  default:
-    alert("Ingresá la unidad de medida: kl, hl, dal, l, dl, cl o ml.")
+/* -----valido que el numero ingresado sea positivo----- */
+if( isNaN(valorIngresado) || valorIngresado < 0  ){
+    alert('El valor ingresado debe ser un número y positivo')
 }
 
 let resultadoConversion = 
