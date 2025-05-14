@@ -1,0 +1,65 @@
+PRÁCTICA 03
+
+160.  
+Calcular y exhibir el promedio de los primeros 100 números naturales.  
+
+Algoritmo en pasos:
+Inicializar una variable llamada suma en 0.
+
+Repetir un ciclo desde 1 hasta 100:
+
+Sumar cada número a la variable suma.
+
+Calcular el promedio dividiendo suma entre 100.
+
+Mostrar el resultado del promedio.
+
+
+
+------------------------------------------------------------------------------------------
+312.  
+Una escuela realiza un control sobre el estado físico de sus 304 alumnos. Dispone de los números de  legajos y estatura (en centímetros) de cada uno de ellos.
+Simularlos con números aleatorios  coherentes para ambos. Se requiere saber el promedio de estatura,
+ así como los números de legajos  de los alumnos de estatura inferior a 165 cm.  
+
+Algoritmo estructurado del ejercicio
+🔹 Objetivo:
+Simular 304 alumnos, cada uno con:
+
+un número de legajo (único),
+
+una estatura en cm (valores aleatorios coherentes, por ejemplo entre 140 y 200 cm).
+
+Calcular el promedio de estatura.
+
+Mostrar los legajos de los alumnos cuya estatura sea menor a 165 cm.
+
+🔸 Pasos del algoritmo:
+Inicializar una variable sumaEstaturas en 0.
+
+Crear una lista para guardar los legajos con estatura < 165 cm.
+
+Repetir 304 veces:
+
+Generar un legajo (por ejemplo, empezando en 1001 y sumando 1).
+
+Generar una estatura aleatoria entre 140 y 200.
+
+Sumar la estatura a sumaEstaturas.
+
+Si la estatura es menor a 165, guardar el legajo en la lista.
+
+Calcular el promedio de estaturas: promedio = sumaEstaturas / 304.
+
+Mostrar el promedio.
+
+Mostrar los legajos con estatura < 165.
+------------------------------------------------------------------------------------------
+147.  
+Se debe ingresar un texto de 190 caracteres. Determinar cuántas veces aparece la sílaba “pa”.  
+------------------------------------------------------------------------------------------
+
+168.  
+Ingresar un valor M, determinar e imprimir los M primeros múltiplos de 3 que no lo sean de 5, dentro  del conjunto de números naturales. 
+------------------------------------------------------------------------------------------
+
