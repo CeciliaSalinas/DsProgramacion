@@ -8,5 +8,7 @@ for(let i = 1; i <= 100; i++){
 
 let promedio = suma / 100
 
-alert(`El promedio de los numeros naturales es: ${promedio}`)
-console.log('El promedio es: ' + promedio)
+alert(`El promedio de los numeros pirmeros 100 numeros naturales es: ${promedio}`)
+console.log(`El promedio de los numeros pirmeros 100 numeros naturales es: ${promedio}`)
+ 
+

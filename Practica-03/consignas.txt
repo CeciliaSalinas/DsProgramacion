@@ -57,6 +57,19 @@ Mostrar los legajos con estatura < 165.
 ------------------------------------------------------------------------------------------
 147.  
 Se debe ingresar un texto de 190 caracteres. Determinar cuántas veces aparece la sílaba “pa”.  
+
+Algoritmo paso a paso
+Pedir al usuario que ingrese un texto (de máximo 190 caracteres).
+
+Inicializar un contador en 0.
+
+Recorrer el texto carácter por carácter hasta la posición (longitud - 1), ya que se analizarán pares de letras.
+
+En cada paso, verificar si el par de caracteres actuales es igual a "pa".
+
+Si lo es, incrementar el contador.
+
+Al finalizar el recorrido, mostrar el contador, que representa la cantidad de veces que aparece la sílaba "pa".
 ------------------------------------------------------------------------------------------
 
 168.  

@@ -23,9 +23,9 @@
 
  let promedio = sumarAltura / 304
 
- console.log(`El promedio de las alturas es ${promedio}`)
 
- console.log(`Los legajos de alumnos con altura menor a 165 cm son: \n${listadoAlturas.join('\n')}`)
+ console.log(`\nEl promedio de las alturas es: ${promedio}`)
+ console.log(`\nLos legajos de alumnos con altura menor a 165 cm son: ${listadoAlturas}\n`)
 
 
 
