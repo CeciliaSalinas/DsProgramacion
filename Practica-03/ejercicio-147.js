@@ -15,7 +15,7 @@ else{
     let cuentaPalabra = 0
     for(let i = 0; i < textoSinEspacio.length -1; i++){
 
-        /* --tengo que verificar si en la posicion de i, aparece la palabra/silaba  "pa"-- */
+        /* --tengo que verificar si en la posicion de i, aparece la silaba  "pa"-- */
         if(textoSinEspacio.substring(i, i + 2) === "pa"){
             cuentaPalabra ++
         }

@@ -74,5 +74,24 @@ Al finalizar el recorrido, mostrar el contador, que representa la cantidad de ve
 
 168.  
 Ingresar un valor M, determinar e imprimir los M primeros múltiplos de 3 que no lo sean de 5, dentro  del conjunto de números naturales. 
+
+Algoritmo paso a paso:
+Pedir al usuario que ingrese un número M.
+
+Inicializar una variable contador = 0 para contar cuántos múltiplos válidos llevamos.
+
+Inicializar una variable numero = 1 que va a recorrer los números naturales.
+
+Mientras contador < M:
+
+Si numero es divisible por 3 (numero % 3 == 0)
+
+Y no es divisible por 5 (numero % 5 != 0)
+
+Mostrar ese número.
+
+Incrementar el contador.
+
+Incrementar numero para seguir probando el siguiente natural.
 ------------------------------------------------------------------------------------------
 
