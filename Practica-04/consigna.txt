@@ -2,6 +2,7 @@
 Ingresar 30 elementos de tipo carácter en un arreglo y luego mostrar sólo los elementos que sean
 distintos de “*”, indicando también la posición que dicho elemento ocupa en el arreglo.
 
+🟣
 Algoritmo:
 Crear un arreglo vacío.
 
@@ -24,12 +25,73 @@ Su posición en el arreglo.
 Ingresar un valor entero N (< 30). A continuación generar un conjunto UNO y luego otro conjunto DOS,
 ambos de N componentes (aleatoriamente). Generar e imprimir otro conjunto TRES intercalando los
 valores de posición impar de DOS y los valores de posición par de UNO.
+
+🟣
+Resumen enunciado:
+Ingresar un número N (menor a 30).
+
+Generar dos conjuntos/arreglos (UNO y DOS) de N números aleatorios.
+
+Crear un tercer conjunto TRES intercalando:
+
+Los valores de posición impar de DOS
+
+con los valores de posición par de UNO
+
+Imprimir los tres conjuntos, especialmente el conjunto TRES.
+
+🟣
+
+Algoritmo paso a paso
+Pedir al usuario que ingrese un número N entero (y validar que sea menor a 30).
+
+Crear dos arreglos vacíos: UNO y DOS.
+
+Generar N números aleatorios y guardarlos en UNO y DOS.
+
+Crear el arreglo TRES:
+
+Recorrer las posiciones del 0 al N-1.
+
+Si la posición es par → tomar de UNO[pos].
+
+Si la posición es impar → tomar de DOS[pos].
+
+Agregar ese valor a TRES.
+
+Imprimir los arreglos.
+
+
 -----------------------------------------------------------------------------------------------------
 
 306.
 Calcular el sueldo de cada uno de los 50 operarios de una fábrica dados como datos la remuneración
 por hora (es la misma para todos los operarios) y la cantidad de horas que trabajó en el mes cada
 operario.
+
+Enunciado del ejercicio
+Calcular el sueldo de cada uno de los 50 operarios de una fábrica, dados como datos:
+
+La remuneración por hora (es la misma para todos los operarios),
+
+Y la cantidad de horas trabajadas en el mes por cada operario.
+
+🔄 Algoritmo en pasos
+Pedir la remuneración por hora (valor único, común a todos los operarios).
+
+Crear un arreglo vacío para guardar las horas trabajadas por los 50 operarios.
+
+Repetir 50 veces:
+
+Pedir al usuario la cantidad de horas trabajadas por ese operario.
+
+Guardar ese valor en el arreglo.
+
+Recorrer el arreglo de horas trabajadas:
+
+Calcular el sueldo como: sueldo = horas_trabajadas × remuneración_por_hora.
+
+Mostrar el sueldo junto con el número de operario (posición en el arreglo).
 -----------------------------------------------------------------------------------------------------
 
 173.

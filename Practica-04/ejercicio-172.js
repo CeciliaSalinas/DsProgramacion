@@ -18,8 +18,8 @@ else {
 
     for (let i = 0; i < largoCaracteres; i++) {
 
-        if (caracteres[i] !== '*') {
-            console.log(`Caracter ${caracteres[i]} ubicado en la posición ${i}`)    
+    if (caracteres[i] !== '*') {
+        console.log(`Caracter ${caracteres[i]} ubicado en la posición ${i}`)    
         }
     }
 }
