@@ -1,0 +1,41 @@
+172.
+Ingresar 30 elementos de tipo carácter en un arreglo y luego mostrar sólo los elementos que sean
+distintos de “*”, indicando también la posición que dicho elemento ocupa en el arreglo.
+
+Algoritmo:
+Crear un arreglo vacío.
+
+Repetir 30 veces:
+
+Pedir al usuario que ingrese un carácter.
+
+Guardarlo en el arreglo.
+
+Recorrer el arreglo:
+
+Si el carácter es distinto de "*", mostrar:
+
+El carácter.
+
+Su posición en el arreglo.
+--------------------------------------------------------------------------------------------------
+
+194.
+Ingresar un valor entero N (< 30). A continuación generar un conjunto UNO y luego otro conjunto DOS,
+ambos de N componentes (aleatoriamente). Generar e imprimir otro conjunto TRES intercalando los
+valores de posición impar de DOS y los valores de posición par de UNO.
+-----------------------------------------------------------------------------------------------------
+
+306.
+Calcular el sueldo de cada uno de los 50 operarios de una fábrica dados como datos la remuneración
+por hora (es la misma para todos los operarios) y la cantidad de horas que trabajó en el mes cada
+operario.
+-----------------------------------------------------------------------------------------------------
+
+173.
+Ingresar números enteros en un arreglo A de 10 elementos, luego, ingresar números enteros en otro
+arreglo B de igual dimensión. Obtener, luego, un arreglo C, siendo C = A + B (cada elemento de C se
+obtiene con la suma de los elementos homólogos de A y B).
+a. Mostrar A, B y C, uno debajo de otro.
+b. Mostrar A, B y C, uno al lado de otro.
+-----------------------------------------------------------------------------------------------------
