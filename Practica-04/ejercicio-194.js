@@ -20,10 +20,9 @@ if(ingresoNumero < 30 && ingresoNumero > 0){
             conjuntoTres.push(conjuntoDos[i])
         }
     }
-
     console.log(`El conjunto n° Uno contiene los números ${conjuntoUno}`)
     console.log(`El conjunto n° Dos contiene los números ${conjuntoDos}`)
-    console.log(`El conjunto n° Dos contiene los números ${conjuntoTres}`)
+    console.log(`El conjunto n° tres contiene los números ${conjuntoTres}`)
 
 }
 else{

@@ -69,7 +69,8 @@ Calcular el sueldo de cada uno de los 50 operarios de una fábrica dados como da
 por hora (es la misma para todos los operarios) y la cantidad de horas que trabajó en el mes cada
 operario.
 
-Enunciado del ejercicio
+
+🟣Enunciado del ejercicio
 Calcular el sueldo de cada uno de los 50 operarios de una fábrica, dados como datos:
 
 La remuneración por hora (es la misma para todos los operarios),
@@ -92,6 +93,24 @@ Recorrer el arreglo de horas trabajadas:
 Calcular el sueldo como: sueldo = horas_trabajadas × remuneración_por_hora.
 
 Mostrar el sueldo junto con el número de operario (posición en el arreglo).
+
+INICIO
+
+    Pedir remuneración por hora → remuneracion
+
+    Crear arreglo vacío sueldos[]
+    Crear arreglo vacío horas[]
+
+    Repetir i = 1 hasta 50
+        Pedir horas trabajadas del operario i → horas[i]
+        sueldo = horas[i] × remuneracion
+        Guardar sueldo en sueldos[i]
+
+    Para i = 1 hasta 50
+        Mostrar "Operario i: Sueldo = sueldos[i]"
+
+FIN
+
 -----------------------------------------------------------------------------------------------------
 
 173.
