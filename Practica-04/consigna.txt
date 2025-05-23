@@ -114,9 +114,49 @@ FIN
 -----------------------------------------------------------------------------------------------------
 
 173.
+
 Ingresar números enteros en un arreglo A de 10 elementos, luego, ingresar números enteros en otro
 arreglo B de igual dimensión. Obtener, luego, un arreglo C, siendo C = A + B (cada elemento de C se
 obtiene con la suma de los elementos homólogos de A y B).
 a. Mostrar A, B y C, uno debajo de otro.
 b. Mostrar A, B y C, uno al lado de otro.
+
+
+
+🟠Enunciado resumido
+Ingresar 10 números enteros en el arreglo A, luego 10 en B. Crear C tal que C[i] = A[i] + B[i].
+Mostrar los tres arreglos:
+
+a. Uno debajo del otro (vertical).
+
+b. Uno al lado del otro (horizontal).
+
+🟠INICIO
+
+    Crear arreglo A vacío
+    Crear arreglo B vacío
+    Crear arreglo C vacío
+
+    Repetir desde i = 0 hasta 9:
+        Pedir al usuario un número entero → A[i]
+
+    Repetir desde i = 0 hasta 9:
+        Pedir al usuario un número entero → B[i]
+
+    Repetir desde i = 0 hasta 9:
+        C[i] ← A[i] + B[i]
+
+    Mostrar: "a. Arreglos uno debajo del otro"
+    Mostrar cada arreglo en una línea:
+        Imprimir A
+        Imprimir B
+        Imprimir C
+
+    Mostrar: "b. Arreglos uno al lado del otro"
+    Para i = 0 hasta 9:
+        Imprimir A[i], B[i], C[i] en la misma línea
+
+FIN
+
+
 -----------------------------------------------------------------------------------------------------
