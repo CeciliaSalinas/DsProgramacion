@@ -17,6 +17,9 @@ else{
 
         let sueldo = horasTrabajadas * ingresoRemuneracion
         arraySueldo.push(sueldo)
+
         console.log(`El operario n° ${i + 1}: tiene ${horasTrabajadas} horas trabajadas y su sueldo es: $ ${sueldo}`)
     }
 }
+
+/* trabajé con un random de horas porque no creo que deba resolverlo con ingreso de 50 datos de a uno */
