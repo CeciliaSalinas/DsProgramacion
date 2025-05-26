@@ -19,7 +19,7 @@ else{
     for(let i = 0; i < 10; i++){
     arrayC[i] = arrayA[i] + arrayB[i]  
 }  
-console.log(`ARREGLO A: \n${arrayA.join('\n')}\nARREGLO B: ${arrayB.join('\n')}\nARREGLO C: ${arrayC.join('\n')}`)
+console.log(`ARREGLO A: \n${arrayA.join('\n')} \nARREGLO B: \n${arrayB.join('\n')} \nARREGLO C: \n${arrayC.join('\n')}`)
 console.log(`ARREGLO A: ${arrayA}\n ARREGLO B: ${arrayB}\n ARREGLO C: ${arrayC}`)
 }
 
