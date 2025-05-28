@@ -25,5 +25,3 @@ for(let i = 1; i < largoArreglo; i++){
 }
 console.log(dx)
 
-
-

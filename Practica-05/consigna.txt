@@ -44,6 +44,32 @@ Ingresar 30 elementos enteros distintos en un arreglo. Ingresar luego un valor e
 determinar si dicho valor coincide con algún elemento del arreglo; si es así, exhibir el valor y la
 posición que ocupa en el arreglo, sino, informar dicha situación.
 
+Ingresar 30 números enteros distintos en un arreglo.
+Ingresar otro número entero.
+Ver si ese número está en el arreglo.
+Si está, mostrar el número y su posición.
+Si no está, informar que no se encuentra.
+
+
+Inicio
+    Crear arreglo vacío llamado NUMEROS
+    Mientras la cantidad de elementos en NUMEROS sea menor que 30
+        Pedir al usuario que ingrese un número entero
+        Si el número NO está en NUMEROS
+            Agregarlo a NUMEROS
+        Sino
+            Mostrar mensaje: "Número repetido, ingresar otro"
+
+    Pedir al usuario que ingrese un número entero (VALOR_BUSCADO)
+
+    Buscar VALOR_BUSCADO en el arreglo NUMEROS
+
+    Si VALOR_BUSCADO está en el arreglo
+        Mostrar mensaje: "El número se encuentra en la posición X"
+    Sino
+        Mostrar mensaje: "El número no está en el arreglo"
+Fin
+
 ----------------------------------------------------------------------------------------------
 
 116.
