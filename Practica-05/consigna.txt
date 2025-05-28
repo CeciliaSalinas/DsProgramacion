@@ -1,0 +1,60 @@
+
+204.
+Escribir un programa que reciba un número del 1 al 12 y muestre el número de días correspondiente al
+mes que corresponda con ese día. Usar funciones.
+
+algoritmo:
+ingresar un numero entre 1 y 12 (son los meses)
+validar que este en el rango
+llamar a una funcion que reciba ese numero
+que la funcion devuelva la cantidad de dias del mes correspondiente
+mostrar resultado (el número de días que tiene el mes que corresponda con ese día)
+
+------------------------------------------------------------------------------------------
+
+176.
+A partir de un arreglo llamado X de 50 elementos enteros (aleatoriamente), crear y exhibir:
+a. Otro arreglo DX tal que el primer elemento sea la diferencia entre el segundo y el primer elemento
+de X, el segundo elemento de DX sea la diferencia entre el tercero y el segundo de X y así
+sucesivamente.
+b. Idem apartado (a) pero sobre sí mismo, o sea sin generar un arreglo DX.
+
+Objetivo general:
+A partir de un arreglo X de 50 números enteros generados aleatoriamente:
+
+a- Crear un nuevo arreglo DX con las diferencias consecutivas.
+
+b- Hacer lo mismo, pero modificando X directamente.
+
+Inicio
+1. Crear un arreglo X con 50 números enteros aleatorios.
+2. Crear un arreglo vacío DX.
+3. Recorrer el arreglo X desde el segundo elemento (índice 1) hasta el último (índice 49):
+    - En cada paso, calcular la diferencia entre el elemento actual y el anterior: 
+      diferencia = X[i] - X[i - 1]
+    - Agregar esa diferencia al arreglo DX.
+4. Mostrar el arreglo X.
+5. Mostrar el arreglo DX.
+Fin
+
+----------------------------------------------------------------------------------------------
+
+180.
+Ingresar 30 elementos enteros distintos en un arreglo. Ingresar luego un valor entero. Se desea
+determinar si dicho valor coincide con algún elemento del arreglo; si es así, exhibir el valor y la
+posición que ocupa en el arreglo, sino, informar dicha situación.
+
+----------------------------------------------------------------------------------------------
+
+116.
+Realiza un programa para que simule el juego “Buscaminas”. Pedir la fila y columna que hará el
+disparo. Luego que aleatoriamente cargue en un array de 8 x 8, 10 minas. Mostrar de manera prolija
+dibujando un cuadrado de 8 x 8, resaltando con un * en donde se encuentre una mina. Y en negrita la
+ubicación del disparo del usuario. Luego, el programa deberá indicar qué es lo que se encuentra en la
+posición ingresada por el usuario. A saber:
+- Si hay una mina, mostrar el cartel perdió junto con la ubicación de las 9 minas restantes.
+- Si no hay una mina, debe mostrar un número que indique la cantidad de minas que hay en las
+casillas circundantes. Así, si una casilla tiene el número 3, significa que las 8 casillas que hay
+alrededor (si no es una esquina o borde) hay 3 con minas y 5 sin minas. Tener en cuenta que puede
+decir 0 que significa que ninguna de las casillas vecinas tiene una mina.
+----------------------------------------------------------------------------------------------
