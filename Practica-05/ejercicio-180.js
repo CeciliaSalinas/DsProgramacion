@@ -1,55 +1,41 @@
 console.log('Practica Javascript 05 - E180')
 
-let ingresoNumeros = parseInt(prompt('Ingresar 30 numeros'))
+/* Ingresar 30 elementos enteros distintos en un arreglo.
+Ingresar luego un valor entero.
+Se desea determinar si dicho valor coincide con algún elemento del arreglo; si es así, exhibir el valor y la
+posición que ocupa en el arreglo, sino, informar dicha situación.
 
+Ingresar 30 números enteros distintos en un arreglo.
+Ingresar otro número entero.
+Ver si ese número está en el arreglo.
+Si está, mostrar el número y su posición.
+Si no está, informar que no se encuentra.
+ */
 
-function buscarCoincidencia(arregloNum, valorNum){
-    let  largoArreglo = arregloNum.length
+let ingresoElementos = prompt('Ingresar 30 numeros enteros')
+let largoElementos = ingresoElementos.length
 
-    for(let i = 0; i < largoArreglo; i ++ ){
+let ingresoUnElemento = prompt('Ingresar un número entero:')
 
-    }
+if(largoElementos !== 30){
+    alert(`Debés ingresar exactamente 30 caracteres. Ingresaste ${largoElementos}.`)
+}
+else{
+   let arrayElmentos = ingresoElementos.split('') 
+   let largoArray = arrayElmentos.length
+
+   for( let i = 0; i < largoArray; i++ ){
+
+}
 }
 
 
-/* let numeros = []
+function buscarCoincidencia(){
 
-// Cargar 30 números enteros distintos
-while (numeros.length < 30) {
-    let entrada = parseInt(prompt(`Ingrese número entero distinto (${numeros.length + 1}/30):`))
-
-    if (!isNaN(entrada)) {
-        if (!numeros.includes(entrada)) {
-            numeros.push(entrada)
-        } else {
-            alert("Ese número ya fue ingresado. Intente con otro.")
-        }
-    } else {
-        alert("Entrada inválida. Ingrese un número entero.")
-    }
 }
 
-// Función para buscar coincidencias
-function buscarCoincidencia(arreglo, valor) {
-    for (let i = 0; i < arreglo.length; i++) {
-        if (arreglo[i] === valor) {
-            return i // Devuelve la posición
-        }
-    }
-    return -1 // Si no lo encuentra
-}
 
-// Ingreso del valor a buscar
-let valorBuscado = parseInt(prompt("Ingrese el número a buscar:"))
 
-if (!isNaN(valorBuscado)) {
-    let posicion = buscarCoincidencia(numeros, valorBuscado)
 
-    if (posicion !== -1) {
-        alert(`El número ${valorBuscado} se encuentra en la posición ${posicion} del arreglo.`)
-    } else {
-        alert("El número no se encuentra en el arreglo.")
-    }
-} else {
-    alert("Número inválido.")
-} */
+
+

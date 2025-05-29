@@ -1,5 +1,6 @@
 console.log('Practica Javascript 04 - E172')
-
+/* Ingresar 30 elementos de tipo carácter en un arreglo y luego mostrar sólo los elementos que sean
+distintos de “*”, indicando también la posición que dicho elemento ocupa en el arreglo. */
 
 let ingresoCaracteres = prompt('Ingresar 30 caracteres:')
 /* ingresoCaracteres = ingresoCaracteres.trim() */
