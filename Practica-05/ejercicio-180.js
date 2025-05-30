@@ -1,18 +1,5 @@
 console.log('Practica Javascript 05 - E180')
 
-/* Ingresar 30 elementos enteros distintos en un arreglo.
-Ingresar luego un valor entero.
-Se desea determinar si dicho valor coincide con algún elemento del arreglo; si es así, exhibir el valor y la
-posición que ocupa en el arreglo, sino, informar dicha situación.
-
-Ingresar 30 números enteros distintos en un arreglo.
-Ingresar otro número entero.
-Ver si ese número está en el arreglo.
-Si está, mostrar el número y su posición.
-Si no está, informar que no se encuentra.
- */
-
-
 /* crear arreglo aleatorio */
 function numerosAleatorios(cantidadElemento, numMinimo, numMaximo){
     let elementosEnteros = []
