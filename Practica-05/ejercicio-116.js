@@ -19,6 +19,6 @@ function numerosAleatorios(cantidadElemento, numMinimo, numMaximo){
 }
 
 let posicionesMinas = numerosAleatorios(10,8,8)
-alert(`El arreglo contiene los núemeros: ${posicionesMinas}.`) 
+alert(`numeros del array: ${posicionesMinas}.`) 
 
 
