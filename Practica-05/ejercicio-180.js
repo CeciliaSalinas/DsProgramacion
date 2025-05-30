@@ -12,57 +12,34 @@ Si está, mostrar el número y su posición.
 Si no está, informar que no se encuentra.
  */
 
-let ingresoElementos = prompt('Ingresar 30 numeros enteros')
-let arrayElmentos = ingresoElementos.split('').map(Number)
-let largoElementos = ingresoElementos.length
 
+/* crear arreglo aleatorio */
+function numerosAleatorios(cantidadElemento, numMinimo, numMaximo){
+    let elementosEnteros = []
 
-
-if(largoElementos !== 30){
-    alert(`Debés ingresar exactamente 30 caracteres. Ingresaste ${largoElementos}.`)
-}
-else{
-   let ingresoUnElemento = prompt('Ingresar un número entero:')
-   let largoArray = arrayElmentos.length
-
-   for( let i = 0; i < largoArray; i++ ){
-
-}
+    for(let i = 0; i < cantidadElemento; i++ ){
+        let numerosAleatorios = Math.floor(Math.random() * (numMaximo - numMinimo + 1)) + numMinimo
+        elementosEnteros.push(numerosAleatorios)
+    }
+    return elementosEnteros
 }
 
-
-function buscarCoincidencia(){
-
-}
+let elementosEnteros = numerosAleatorios(30,1,100)
+alert(`El arreglo contiene los núemeros: ${elementosEnteros}.`) 
 
 
-/* 
-let ingresoElementos = prompt('Ingresar 30 números enteros separados por espacio:');
-let arrayElementos = ingresoElementos.split(' ').map(Number);
+let unicoValor = parseInt(prompt('Ingresar un numero entero:'))
+let largoArreglo = elementosEnteros.length
+let elementoEncontrado = false
 
-// Validar que haya exactamente 30 números y que todos sean válidos
-if (arrayElementos.length !== 30 || arrayElementos.some(num => isNaN(num))) {
-    alert(`Debés ingresar exactamente 30 números válidos separados por espacio.`);
-} else {
-    let ingresoUnElemento = parseInt(prompt('Ingresar un número entero a buscar:'));
-
-    if (isNaN(ingresoUnElemento)) {
-        alert('El número ingresado no es válido.');
-    } else {
-        let posicion = buscarCoincidencia(arrayElementos, ingresoUnElemento);
-
-        if (posicion !== -1) {
-            alert(`✅ El número ${ingresoUnElemento} se encuentra en la posición ${posicion} del arreglo.`);
-        } else {
-            alert(`❌ El número ${ingresoUnElemento} no está en el arreglo.`);
-        }
+for(let i = 0; i < largoArreglo; i++){
+    if(elementosEnteros[i] === unicoValor){
+        alert(`El número entero ${unicoValor} está en la posición ${i}`)
+        elementoEncontrado = true
+        break
     }
 }
-
-function buscarCoincidencia(arreglo, valorBuscado) {
-    return arreglo.indexOf(valorBuscado);
+if(!elementoEncontrado){
+    alert(`El número entero ingresado ${unicoValor} no se encuentra en el arreglo`)
 }
-*/
-
-
 

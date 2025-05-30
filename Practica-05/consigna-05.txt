@@ -73,14 +73,55 @@ Fin
 ----------------------------------------------------------------------------------------------
 
 116.
-Realiza un programa para que simule el juego “Buscaminas”. Pedir la fila y columna que hará el
-disparo. Luego que aleatoriamente cargue en un array de 8 x 8, 10 minas. Mostrar de manera prolija
-dibujando un cuadrado de 8 x 8, resaltando con un * en donde se encuentre una mina. Y en negrita la
-ubicación del disparo del usuario. Luego, el programa deberá indicar qué es lo que se encuentra en la
-posición ingresada por el usuario. A saber:
+Realiza un programa para que simule el juego “Buscaminas”. 
+Pedir la fila y columna que hará el disparo. 
+Luego que aleatoriamente cargue en un array de 8 x 8, 10 minas. 
+Mostrar de manera prolija dibujando un cuadrado de 8 x 8, resaltando con un * en donde se encuentre una mina. 
+Y en negrita la ubicación del disparo del usuario.
+Luego, el programa deberá indicar qué es lo que se encuentra en la posición ingresada por el usuario. A saber:
 - Si hay una mina, mostrar el cartel perdió junto con la ubicación de las 9 minas restantes.
 - Si no hay una mina, debe mostrar un número que indique la cantidad de minas que hay en las
 casillas circundantes. Así, si una casilla tiene el número 3, significa que las 8 casillas que hay
 alrededor (si no es una esquina o borde) hay 3 con minas y 5 sin minas. Tener en cuenta que puede
 decir 0 que significa que ninguna de las casillas vecinas tiene una mina.
+
+Algoritmo del Buscaminas (8x8 con 10 minas)
+1. Inicialización
+Crear una matriz de 8x8 (tablero) inicializada con ceros o valores vacíos (0).
+
+Crear otra matriz del mismo tamaño para mostrar los resultados (tableroVisual).
+
+2. Colocar minas aleatoriamente
+Colocar 10 minas ('M') en posiciones aleatorias sin repetir.
+
+Guardar esas posiciones en una lista para poder mostrar luego si el jugador pierde.
+
+3. Pedir al usuario una fila y columna
+Validar que esté entre 0 y 7 (índices válidos de la matriz).
+
+Guardar esa posición como disparo del jugador.
+
+4. Verificar si el disparo fue una mina
+Si la celda elegida contiene una mina:
+
+Mostrar el mensaje "Perdiste".
+
+Mostrar el tablero, revelando las 10 minas (incluyendo la disparada).
+
+Si no hay una mina:
+
+Calcular cuántas minas hay en las 8 celdas vecinas.
+
+Mostrar esa cantidad en la celda disparada.
+
+5. Mostrar tablero
+Dibujar el tablero 8x8 con los siguientes símbolos:
+
+* para las minas.
+
+X o negrita o color para indicar la posición disparada.
+
+El número de minas vecinas si no hay mina.
+
+Mostrar todo de manera ordenada y clara.
 ----------------------------------------------------------------------------------------------
