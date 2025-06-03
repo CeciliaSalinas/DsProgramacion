@@ -30,3 +30,4 @@ if(!elementoEncontrado){
     alert(`El número entero ingresado ${unicoValor} no se encuentra en el arreglo`)
 }
 
+
