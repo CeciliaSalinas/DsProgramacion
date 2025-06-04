@@ -1,7 +1,4 @@
 console.log('Practica Javascript 05 - E204')
-/* Escribir un programa que reciba un número del 1 al 12 y muestre el número de días correspondiente al
-mes que corresponda con ese día. Usar funciones. */
-
 
 function getDia(mes){
     if(mes === 2){

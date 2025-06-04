@@ -1,6 +1,6 @@
 console.log('Practica Javascript 05 - E180')
 
-/* crear arreglo aleatorio */
+
 function numerosAleatorios(cantidadElemento, numMinimo, numMaximo){
     let elementosEnteros = []
 

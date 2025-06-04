@@ -1,6 +1,5 @@
 console.log('Practica Javascript 05 - E176')
 
-/* crear arreglo aleatorio */
 function numerosAleatorios(cantidadElemento, numMinimo, numMaximo){
     let x = []
 
@@ -15,8 +14,6 @@ let x = numerosAleatorios(50,2,80)
 console.log(x) 
 
 
-
-/* creo el arreglo xd */
 let dx = []
 let largoArreglo = x.length
 

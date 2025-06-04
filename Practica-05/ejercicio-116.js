@@ -77,7 +77,7 @@ while(isNaN(columnaUsuario) || columnaUsuario < 0 || columnaUsuario > 7 )
 
 
 if(tableroMinas[filaUsuario][columnaUsuario] === 'M'){
-alert('Perdiste!')
+alert('Perdistes!!')
 for( let i = 0; i < 8; i++){
     for( let t = 0; t < 8; t++){
         if(tableroMinas[i][t]=== 'M'){

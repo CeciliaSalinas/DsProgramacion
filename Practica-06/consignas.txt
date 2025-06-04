@@ -1,0 +1,68 @@
+275.
+Programar la función multiplos que calculará cuántos múltiplos de M hay dentro del conjunto 1 a N.
+Ambos números debe ingresarlos previamente.
+
+M: el número del cual se buscan los múltiplos (por ejemplo, múltiplos de 3).
+N: el número tope del rango, es decir, el límite superior del conjunto {1, 2, 3, ..., N}.
+
+ALGORITMO:
+Inicio
+    Pedir al usuario que ingrese el valor de M
+    Pedir al usuario que ingrese el valor de N
+
+    Validar que M y N sean números enteros positivos
+
+    Llamar a la función multiplos(M, N)
+
+    Dentro de la función:
+        Inicializar contador en 0
+        Desde i = 1 hasta N
+            Si i es divisible por M (i % M === 0)
+                Aumentar contador
+
+        Retornar contador
+
+    Mostrar el resultado al usuario
+Fin
+---------------------------------------------------------------------------------------------------
+288.
+Programar una función llamada promedios.
+Dicha función debe recibir una matriz, y retornar un vector, en donde cada elemento del vector sea el
+promedio de la fila correspondiente de la matriz.
+Por ejemplo, si la función recibe la matriz : 3 8 1
+9 4 2
+1 2 6
+debe retornar el vector 4 5 3 (porque 4 es el promedio de la primera fila, 5 el de la segunda y 3 el de la
+tercera).
+IMPORTANTE: Lo anterior es solo un ejemplo, la matriz recibida podría tener otros números
+cualesquiera y/u otras dimensiones (no necesariamente 3 filas y 3 columnas).
+
+---------------------------------------------------------------------------------------------------
+
+51.
+Escribir un programa que pida los coeficientes de una ecuación de 2o grado (a, b y c). Luego por medio
+de una función, muestre sus soluciones reales. Si no existen, debe indicarlo. Los carteles, se deben
+imprimir fuera de la función. Recordemos que las soluciones de una ecuación de segundo grado ax2
++
+
+bx + c = 0 son:
+________
+-b + V b2
+– 4ac
+x =_______________
+2a
+
+---------------------------------------------------------------------------------------------------
+
+10.
+Escribir cuatro funciones que tomen como parámetros de entrada un texto (texto) y una palabra
+(palabra) ingresados anteriormente. Desde el script principal deberá imprimir lo siguiente:
+En la cadena xxxxx xxxx xxx xxxxx xxxxx se encontraron nn palabras, nn vocales y nn espacios
+en blanco. Además, la palabra zzzzzz se encontró nn veces en el texto.
+Las 4 funciones deberán llamarse con los argumentos que sólo se necesiten para su ejecución.
+Ejemplo, si se ingresó el texto esto es un examen de sintaxis y sintaxis es una materia de
+segundo año y es necesario para nosotros aprobarlo, la palabra ingresada es sintaxis, la salida
+deberá ser:
+En la cadena esto es un examen de sintaxis y sintaxis es una materia de segundo año y es
+necesario para nosotros aprobarlo se encontraron 20 palabras, 42 vocales y 19 espacios en blanco.
+Además, la palabra sintaxis se encontró 2 veces en el texto.
