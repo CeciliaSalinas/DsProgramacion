@@ -37,6 +37,26 @@ tercera).
 IMPORTANTE: Lo anterior es solo un ejemplo, la matriz recibida podría tener otros números
 cualesquiera y/u otras dimensiones (no necesariamente 3 filas y 3 columnas).
 
+ALGORITMO:
+Inicio
+    Definir la función promedios(matriz)
+        Crear un vector vacío llamado resultados
+
+        Para cada fila en la matriz
+            Inicializar suma en 0
+            Para cada elemento en la fila
+                Sumar el elemento a suma
+            Fin Para
+
+            Calcular promedio = suma / cantidad de elementos de la fila
+            Agregar promedio al vector resultados
+        Fin Para
+
+        Retornar vector resultados
+    Fin función
+Fin
+
+
 ---------------------------------------------------------------------------------------------------
 
 51.
