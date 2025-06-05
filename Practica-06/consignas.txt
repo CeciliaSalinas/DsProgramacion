@@ -80,6 +80,23 @@ ________
 x =_______________
 2a
 
+ALGORITMO:
+Inicio
+    Pedir al usuario que ingrese los coeficientes a, b y c
+    Llamar a una función que reciba a, b y c
+        En la función:
+            Calcular el discriminante D = b^2 - 4ac
+            Si D < 0, retornar null o un mensaje indicando "no hay soluciones reales"
+            Si D == 0, calcular única solución x = -b / (2a)
+            Si D > 0, calcular las dos soluciones:
+                x1 = (-b + sqrt(D)) / (2a)
+                x2 = (-b - sqrt(D)) / (2a)
+            Retornar las soluciones
+
+    Mostrar las soluciones reales al usuario, si existen
+    Si no existen, mostrar mensaje que no hay soluciones reales
+Fin
+
 ---------------------------------------------------------------------------------------------------
 
 10.
