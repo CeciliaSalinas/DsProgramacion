@@ -56,6 +56,14 @@ Inicio
     Fin función
 Fin
 
+Qué significa "recibir una matriz y retornar un vector"?
+Significa que la función debe:
+
+Recibir una matriz como parámetro.
+
+Calcular el promedio de cada fila.
+
+Devolver un vector con esos promedios.
 
 ---------------------------------------------------------------------------------------------------
 
