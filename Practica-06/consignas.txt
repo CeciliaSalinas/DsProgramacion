@@ -105,9 +105,27 @@ Escribir cuatro funciones que tomen como parámetros de entrada un texto (texto)
 En la cadena xxxxx xxxx xxx xxxxx xxxxx se encontraron nn palabras, nn vocales y nn espacios
 en blanco. Además, la palabra zzzzzz se encontró nn veces en el texto.
 Las 4 funciones deberán llamarse con los argumentos que sólo se necesiten para su ejecución.
+
 Ejemplo, si se ingresó el texto esto es un examen de sintaxis y sintaxis es una materia de
 segundo año y es necesario para nosotros aprobarlo, la palabra ingresada es sintaxis, la salida
 deberá ser:
 En la cadena esto es un examen de sintaxis y sintaxis es una materia de segundo año y es
 necesario para nosotros aprobarlo se encontraron 20 palabras, 42 vocales y 19 espacios en blanco.
 Además, la palabra sintaxis se encontró 2 veces en el texto.
+
+Análisis del problema
+Desde el script principal se ingresan:
+Un texto completo (string).
+Una palabra a buscar.
+
+Se necesitan 4 funciones:
+contarPalabras(texto) → devuelve la cantidad de palabras.
+contarVocales(texto) → devuelve la cantidad de vocales.
+contarEspacios(texto) → devuelve la cantidad de espacios en blanco.
+contarPalabraEnTexto(texto, palabra) → devuelve cuántas veces aparece la palabra buscada en el texto.
+
+Algoritmo paso a paso
+Pedir el texto al usuario.
+Pedir la palabra a buscar.
+Llamar a las 4 funciones, pasando los argumentos necesarios.
+Mostrar todo el resultado en una sola frase usando alert() o console.log().
