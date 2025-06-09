@@ -27,17 +27,18 @@ function matrizAleatoria(filas, columnas){
     return matrizInicial
 }
 
+
 function muestraTablero(tablero) {
     for (let fila of tablero) {
         console.log(fila.join(' '))
     }
 }
 
+
 let matriz = matrizAleatoria(3,3,3)
+let resultado = promedios(matriz)
 muestraTablero(matriz)
 
-
-let resultado = promedios(matriz)
-console.log(`Los promedios de las filas de la matriz son: ${resultado.join(', ')}`) 
+console.log(`Los promedios de las filas de la matriz son:\n${resultado.join('\n')}`) 
 
 

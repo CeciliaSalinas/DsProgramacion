@@ -24,6 +24,7 @@ Inicio
 
     Mostrar el resultado al usuario
 Fin
+
 ---------------------------------------------------------------------------------------------------
 288.
 Programar una función llamada promedios.
@@ -80,6 +81,13 @@ ________
 x =_______________
 2a
 
+ ax² + bx + c = 0
+
+
+ El coeficiente (a) es el número que multiplica a (x^2). 
+ El coeficiente (b) es el número que multiplica a (x). 
+ El coeficiente (c) es el término independiente.
+
 ALGORITMO:
 Inicio
     Pedir al usuario que ingrese los coeficientes a, b y c
@@ -96,6 +104,8 @@ Inicio
     Mostrar las soluciones reales al usuario, si existen
     Si no existen, mostrar mensaje que no hay soluciones reales
 Fin
+
+
 
 ---------------------------------------------------------------------------------------------------
 

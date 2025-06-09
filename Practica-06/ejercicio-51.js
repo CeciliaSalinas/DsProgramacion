@@ -23,20 +23,20 @@ let a = parseInt(prompt('Ingresar el coeficiente a'))
 let b = parseInt(prompt('Ingresar el coeficiente b')) 
 let c = parseInt(prompt('Ingresar el coeficiente c')) 
 
+let soluciones = solucionEcuacion(a, b, c)
+
 if(a === 0){
-    alert('El coeficiente A no puede ser 0 para una ecuacion de segundo grado!')
+    alert('El coeficiente A no puede ser 0 para una ecuación de segundo grado!')
 }
 else{
-    let soluciones = solucionEcuacion(a, b, c)
     /* let solucionesReales = soluciones.length */
     if(soluciones === null){
-        alert(`La ecuacion no tiene solución real.`)
+        alert(`La ecuacion no tiene soluciones reales.`)
     }
     else if(soluciones.length === 1){
         alert(`La ecuacion tiene una sola solución real: x = ${soluciones[0]} `)
     }
     else{
-        alert(`La ecuación tiene dos soluciones reales: x1 = ${soluciones[0]} / x2 = ${soluciones[1]}`)
+        alert(`La ecuación tiene dos soluciones reales: \n  x1 = ${soluciones[0]} \n x2 = ${soluciones[1]}`)
     }
 }
-
