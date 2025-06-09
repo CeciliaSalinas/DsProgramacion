@@ -18,7 +18,6 @@ if(isNaN(M) || M <= 0 || isNaN(N) || N <= 0){
     alert('Los numeros ingresados deben ser positivos')
 }
 else {
-    /* let muestraResultado = multiplos(M, N) */
     alert(`Se encontraron ${muestraResultado} múltiplos de ${M} entre 1 y ${N}.`)
 }
 
