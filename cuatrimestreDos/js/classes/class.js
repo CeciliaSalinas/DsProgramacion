@@ -16,6 +16,9 @@ class Persona {
     frase = '';
     comida = '';
 
+    //crear e inicializar un objeto de una clase, asignándole valores a sus atributos y realizando cualquier configuración necesaria
+    //  antes de que el objeto esté listo para ser utilizado
+    
     //el constructor se va a ejecutar en el momento que se crea una nueva instancia de la class
     constructor(nombre = 'sin nombre', codigo = 'sin codigo', frase = 'sin frase'){
         /* console.log('Hola') */
@@ -47,5 +50,31 @@ class Persona {
     }
 }
 
-const spiderman = new Persona('Peter Parker', 'spider', 'soy tu amigo vecino spideran')
-/* const ironman = new Persona('Tony stark', 'ironman', 'yo soy ironman')  */
+const spiderman = new Persona('Peter Parker', 'spider', 'soy tu amigo vecino spiderman')
+const ironman = new Persona('Tony stark', 'ironman', 'yo soy ironman')
+/* console.log(spiderman) */
+
+//quiero ver cuantas instancias tengo de la class
+/* Persona._conteo = 2 */
+
+console.log('Conteo estático')
+console.log(Persona.conteo) 
+
+
+console.log(ironman) 
+
+spiderman.miFrase()
+/* ironman.miFrase() */
+
+spiderman.setComidaFavorita = 'El postre de creza de la tía May'
+spiderman.nemesis = 'El duende verde'
+
+/* spiderman.comida = 'El duende verde' */ //modifico el valor porque comida no es una propiedad privada
+console.log(spiderman.getComidaFavorita)
+console.log(spiderman)
+Persona.mensaje()
+
+Persona.propiedadExterna = 'Hola mundo'
+console.log(Persona.propiedadExterna)
+console.log(Persona)
+ 

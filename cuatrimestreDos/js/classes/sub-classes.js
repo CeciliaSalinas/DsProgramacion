@@ -26,17 +26,15 @@ class Persona {
         Persona._conteo++;
     }
 
-    quiienSoy(){
+    quienSoy(){
         console.log(`Soy ${this.nombre} y mi identidad es ${this.codigo}`)
     }
 
       miFrase(){
-        this.quiienSoy()
+        this.quienSoy()
         console.log(`${this.codigo}  dice ${this.frase}`)
     }
-    // ejemplo: establezco un valor en la comida para que siempre esté en mayúscula
-    //argumento que recibe: comida
-    // solo recibe un argumento , que es el que queremos establecer
+
     set setComidaFavorita(comida){
         this.comida = comida.toUpperCase()
     }
@@ -47,31 +45,31 @@ class Persona {
     }
 }
 
-const spiderman = new Persona('Peter Parker', 'spider', 'soy tu amigo vecino spiderman')
-const ironman = new Persona('Tony stark', 'ironman', 'yo soy ironman')
-/* console.log(spiderman) */
 
-//quiero ver cuantas instancias tengo de la class
-/* Persona._conteo = 2 */
+class Heroe extends Persona{
+    clan = 'Sin clan'
 
-console.log('Conteo estático')
-console.log(Persona.conteo) 
+    //tengo que llamar al constructor de la clase padre
+                //recibe los parametros de persona
+    constructor(nombre, codigo, frase){
 
+        //con esta palabra reservada llamo al constructor padre
+        super(nombre,codigo,frase)
+         this.clan = 'Los Avenger'
+    }
 
-console.log(ironman) 
+    quienSoy(){
+       console.log(`Soy ${this.nombre}, ${this.clan}`) 
+       super.quienSoy()
+    }
+}
 
-spiderman.miFrase()
-/* ironman.miFrase() */
+//const spiderman = new Persona('Peter Parker', 'spider', 'soy tu amigo vecino spideran')
 
-spiderman.setComidaFavorita = 'El postre de creza de la tía May'
-spiderman.nemesis = 'El duende verde'
+const spiderman = new Heroe(' Peter Parker ', 'Spider', 'soy tu amigo vecino spideran')
 
-/* spiderman.comida = 'El duende verde' */ //modifico el valor porque comida no es una propiedad privada
-console.log(spiderman.getComidaFavorita)
 console.log(spiderman)
-Persona.mensaje()
-
-Persona.propiedadExterna = 'Hola mundo'
-console.log(Persona.propiedadExterna)
-console.log(Persona)
+spiderman.quienSoy()
  
+/* EN LA CLASE PADRE SE DEFINE TODO LO GENERAL 
+    EN LAS CLASES HIJAS SE LE DA LLA PARTICULARIDAD DE CA  */
