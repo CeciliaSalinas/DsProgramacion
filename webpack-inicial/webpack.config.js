@@ -1,9 +1,15 @@
+//acá importamos los pulgins
+
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 module.exports = {
-    /* mode: 'production', */
+   /*  mode: 'production', */
     mode: 'development',
+    optimization: {
+        minimizer: [ new OptimizeCssAssetsPlugin()]
+    },
     module:{
         rules: [
              {
